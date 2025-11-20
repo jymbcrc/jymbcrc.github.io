@@ -3,4 +3,9 @@ title: Yuming Jiang
 description: Multi-omics, mass spectrometry, and AI-driven science
 theme: jekyll-theme-cayman
 
+sass:
+  style: compressed
+
+include:
+  - assets/css/custom.css
 
