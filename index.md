@@ -10,7 +10,7 @@ title: Home
   <div class="about-left">
     <img src="/assets/img/profile_cartoon.png" alt="Yuming Jiang" class="about-avatar">
 
-    <div class="about-name"><strong>Yuming Jiang (江昱明)</strong>
+    <div class="about-name">Yuming Jiang (江昱明)</div>
     <div class="about-title">Mass Spectrometry & Multi-omics Researcher</div>
     <div class="about-affil">
       <span>Your Institution / Lab</span><br>
