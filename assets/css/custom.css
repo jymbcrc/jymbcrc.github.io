@@ -18,50 +18,47 @@ h1, h2, h3, h4 {
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 0.95rem;
 }
-
-/* 让正文更窄一点（更专业，更易读）*/
+/* 让正文稍微宽一点，方便左右两栏 */
 .page-content {
-  max-width: 820px;
+  max-width: 900px;
   margin: 0 auto;
-}
-
-/* About 页面两栏布局 */
-.about-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 32px;
-  margin-top: 24px;
 }
 
 /* 左边：头像 + 名字 + 单位 + 图标 */
 .about-left {
-  flex: 0 0 260px;
+  flex: 0 0 240px;      /* 左栏稍微窄一点 */
   text-align: center;
 }
 
+/* 头像：整体缩小一点 */
 .about-avatar {
-  width: 180px;
-  height: 180px;
+  width: 160px;         /* 原来 180，缩小一点 */
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  margin-bottom: 10px;
 }
 
+/* 姓名：大一些，更像主标题 */
 .about-name {
-  font-size: 2rem;
+  font-size: 1.8rem;    /* 以你 body 20px 计算，大约 36px */
   font-weight: 600;
-  margin-top: 16px;
-  margin-bottom: 4px;
+  margin-top: 8px;
+  margin-bottom: 6px;
 }
 
+/* 职称那一行：加大一点 */
 .about-title {
+  font-size: 1.05rem;   /* 比正文略大一点 */
   color: #555;
   margin-bottom: 4px;
 }
 
+/* 单位：也加大一点，并保持绿色 */
 .about-affil {
-  color: #159957; /* Cayman 主题的绿色 */
+  font-size: 1.05rem;
+  color: #159957;       /* Cayman 主题绿色 */
   font-weight: 500;
   margin-bottom: 8px;
 }
@@ -69,8 +66,8 @@ h1, h2, h3, h4 {
 /* 社交图标区域 */
 .about-socials a {
   display: inline-block;
-  margin: 8px 6px;
-  font-size: 1.6rem;
+  margin: 6px 6px;
+  font-size: 1.5rem;    /* 稍微大一点 */
   text-decoration: none;
 }
 
