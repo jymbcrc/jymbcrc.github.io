@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
 }
 /* 让正文稍微宽一点，方便左右两栏 */
 .page-content {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -42,17 +42,18 @@ h1, h2, h3, h4 {
 
 /* 姓名：大一些，更像主标题 */
 .about-name {
-  font-size: 1.8rem;    /* 以你 body 20px 计算，大约 36px */
-  font-weight: 600;
-  margin-top: 8px;
-  margin-bottom: 6px;
+  font-size: 1.9rem;                    /* 调整字号 */
+  font-weight: 700;                     /* 加粗（比 strong 更强） */
+  font-family: "Segoe UI", Arial, sans-serif;  /* 设置字体 */
+  margin-top: 12px;
+  margin-bottom: 8px;
 }
 
 /* 职称那一行：加大一点 */
 .about-title {
   font-size: 1.05rem;   /* 比正文略大一点 */
   color: #555;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 /* 单位：也加大一点，并保持绿色 */
