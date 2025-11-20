@@ -8,7 +8,7 @@ title: Home
 
   <!-- 左边：头像 + 基本信息 -->
   <div class="about-left">
-    <img src="/assets/img/cartoon.png" alt="Yuming Jiang" class="about-avatar">
+    <img src="/assets/img/profile_cartoon.png" alt="Yuming Jiang" class="about-avatar">
 
     <div class="about-name">Yuming Jiang (江昱明)</div>
     <div class="about-title">Mass Spectrometry & Multi-omics Researcher</div>
