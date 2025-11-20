@@ -22,19 +22,4 @@ title: Publications
 
 ---
 
-## 🧪 Research Areas
 
-You can find publications related to:
-
-- Mass spectrometry  
-- Proteomics & metabolomics  
-- High-throughput multi-omics screening  
-- AI-driven data analysis (AI Scientist, agent systems)  
-- Automated mass spectrometry workflows  
-
----
-
-## 📌 Note
-
-For the full list of publications, please visit my  
-**[Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=bTMnbWQAAAAJ)**.
