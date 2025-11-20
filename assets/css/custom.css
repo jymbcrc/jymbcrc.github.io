@@ -1,0 +1,26 @@
+/* 全站默认字体 */
+body {
+  font-family: "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.7;
+  color: #222222;
+}
+
+/* 标题字体 */
+h1, h2, h3, h4 {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  color: #111111;
+}
+
+/* 导航栏字体 */
+.site-nav a {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.95rem;
+}
+
+/* 让正文更窄一点（更专业，更易读）*/
+.page-content {
+  max-width: 820px;
+  margin: 0 auto;
+}
