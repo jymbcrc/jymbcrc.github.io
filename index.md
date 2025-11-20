@@ -4,38 +4,50 @@ title: Home
 
 {% include nav.html %}
 
-# Yuming Jiang (江昱明)
+<div class="about-wrapper">
 
-**Mass spectrometry · Multi-omics · AI agents · Automated science**
+  <!-- 左边：头像 + 基本信息 -->
+  <div class="about-left">
+    <img src="/assets/img/cartoon.png" alt="Yuming Jiang" class="about-avatar">
 
-Welcome! I work on high-throughput proteomics and metabolomics,  
-mass-spectrometry method development, and AI-agent systems for automated data analysis.
+    <div class="about-name">Yuming Jiang (江昱明)</div>
+    <div class="about-title">Mass Spectrometry & Multi-omics Researcher</div>
+    <div class="about-affil">
+      <span>Your Institution / Lab</span><br>
+      <span>City, Country</span>
+    </div>
 
----
+    <div class="about-socials">
+      <a href="mailto:jymbcrc@gmail.com">📧</a>
+      <a href="https://github.com/jymbcrc">🐙</a>
+      <a href="https://scholar.google.com/citations?hl=en&user=bTMnbWQAAAAJ">🎓</a>
+      <!-- 如果以后有 LinkedIn / Twitter 等可以继续加 -->
+    </div>
+  </div>
 
-## 🧠 Research Interests
+  <!-- 右边：ABOUT ME 文本 -->
+  <div class="about-right">
+    <h1>About Me</h1>
+    <p>
+      I work on high-throughput <strong>proteomics</strong> and <strong>metabolomics</strong>,
+      mass-spectrometry method development, and <strong>AI-agent systems</strong> for automated data analysis.
+      My goal is to help build AI- and automation-integrated multi-omics laboratories.
+    </p>
 
-- High-throughput mass spectrometry and multi-omics screening  
-- Automated sample preparation and LC-MS / direct infusion workflows  
-- AI agents and “AI Scientist” systems for proteomics & metabolomics  
-- Integration of large-scale drug response data with biological interpretation  
+    <h2>Research Interests</h2>
+    <ul>
+      <li>High-throughput mass spectrometry and multi-omics screening</li>
+      <li>Automated sample preparation and LC-MS / direct infusion workflows</li>
+      <li>AI agents and “AI Scientist” systems for proteomics &amp; metabolomics</li>
+      <li>Integration of large-scale drug response data with biological interpretation</li>
+    </ul>
 
----
+    <h2>Highlights</h2>
+    <ul>
+      <li>Developing automated multi-omics pipelines combining robotics and advanced MS</li>
+      <li>Building custom software (e.g. <strong>ZoDIAq</strong>, <strong>DImeta</strong>) for large-scale data analysis</li>
+      <li>Using LLM-based agents to automate QC, statistics, and literature-based interpretation</li>
+    </ul>
+  </div>
 
-## 🌟 Highlights
-
-- Developed automated multi-omics pipelines combining robotics and advanced MS  
-- Built custom software (e.g. **ZoDIAq**, **DImeta**) for large-scale data analysis  
-- Using LLM-based agents to automate QC, statistics, and literature-based interpretation  
-
----
-
-## 📰 News
-
-- *2025* — Building AI-assisted multi-omics analysis and interpretation agents  
-
----
-
-## 📬 Quick Contact
-
-For collaboration or questions, please see the [Contact](/contact) page.
+</div>
