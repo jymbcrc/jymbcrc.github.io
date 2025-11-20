@@ -2,18 +2,14 @@
 title: Home
 ---
 
+{% include nav.html %}
+
 # Yuming Jiang (江昱明)
 
 **Mass spectrometry · Multi-omics · AI agents · Automated science**
 
 Welcome! I work on high-throughput proteomics and metabolomics,  
 mass-spectrometry method development, and AI-agent systems for automated data analysis.
-
----
-
-## 🔗 Navigation
-
-[Home](/) · [About](/about) · [Research](/research) · [Projects](/projects) · [Publications](/publications) · [Contact](/contact)
 
 ---
 
